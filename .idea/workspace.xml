@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72eb0310-8cb2-439a-8cf7-f751b26dc43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +28,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XpAs3yuRT5Eadoqk1Jl5zryo1B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +38,59 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Twitter/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TweetAPITest.testUserCanTweetSuccessfully">
+    <configuration name="TweetAPITest.testUserCanTweetSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tweets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tweets" />
+      <option name="MAIN_CLASS_NAME" value="tweets.TweetAPITest" />
+      <option name="METHOD_NAME" value="testUserCanTweetSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetAPITest.testUserCannotTweetTheSameTweetTwiceInARow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tweets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tweets" />
+      <option name="MAIN_CLASS_NAME" value="tweets.TweetAPITest" />
+      <option name="METHOD_NAME" value="testUserCannotTweetTheSameTweetTwiceInARow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TweetAPITest.testUserCanTweetSuccessfully" />
+        <item itemvalue="TestNG.TweetAPITest.testUserCannotTweetTheSameTweetTwiceInARow" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,22 +118,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1223" height="209" key="GridCell.Tab.0.bottom" timestamp="1581737264565">
+    <state width="1384" height="209" key="GridCell.Tab.0.bottom" timestamp="1581801598152">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1223" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1581737264565" />
-    <state width="1223" height="209" key="GridCell.Tab.0.center" timestamp="1581737264564">
+    <state width="1384" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1581801598152" />
+    <state width="1384" height="209" key="GridCell.Tab.0.center" timestamp="1581801598151">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1223" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1581737264564" />
-    <state width="1223" height="209" key="GridCell.Tab.0.left" timestamp="1581737264564">
+    <state width="1384" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1581801598151" />
+    <state width="1384" height="209" key="GridCell.Tab.0.left" timestamp="1581801598151">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1223" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1581737264564" />
-    <state width="1223" height="209" key="GridCell.Tab.0.right" timestamp="1581737264564">
+    <state width="1384" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1581801598151" />
+    <state width="1384" height="209" key="GridCell.Tab.0.right" timestamp="1581801598151">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1223" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1581737264564" />
+    <state width="1384" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1581801598151" />
+    <state x="222" y="23" width="1024" height="813" key="SettingsEditor" timestamp="1581798424361">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="222" y="23" width="1024" height="813" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1581798424361" />
     <state x="187" y="130" key="new project wizard" timestamp="1581734005412">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
