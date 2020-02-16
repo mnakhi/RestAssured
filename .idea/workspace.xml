@@ -41,14 +41,50 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Twitter/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TweetAPITest.testUserCanTweetSuccessfully">
+  <component name="RunManager" selected="TestNG.TestPostsAPI.testUserCanCreateAPostSuccessfully">
+    <configuration name="TestPostsAPI.testGetAllPosts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Typicode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="posts" />
+      <option name="MAIN_CLASS_NAME" value="posts.TestPostsAPI" />
+      <option name="METHOD_NAME" value="testGetAllPosts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPostsAPI.testUserCanCreateAPostSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Typicode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="posts" />
+      <option name="MAIN_CLASS_NAME" value="posts.TestPostsAPI" />
+      <option name="METHOD_NAME" value="testUserCanCreateAPostSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TweetAPITest.testUserCanTweetSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Twitter" />
       <extension name="coverage">
@@ -87,6 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestPostsAPI.testUserCanCreateAPostSuccessfully" />
+        <item itemvalue="TestNG.TestPostsAPI.testGetAllPosts" />
         <item itemvalue="TestNG.TweetAPITest.testUserCanTweetSuccessfully" />
         <item itemvalue="TestNG.TweetAPITest.testUserCannotTweetTheSameTweetTwiceInARow" />
       </list>
@@ -118,26 +156,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1384" height="209" key="GridCell.Tab.0.bottom" timestamp="1581801598152">
+    <state x="526" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1581883840478">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1384" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1581801598152" />
-    <state width="1384" height="209" key="GridCell.Tab.0.center" timestamp="1581801598151">
+    <state x="526" y="154" key="#com.intellij.ide.util.MemberChooser/0.23.1440.813@0.23.1440.813" timestamp="1581883840478" />
+    <state width="1384" height="209" key="GridCell.Tab.0.bottom" timestamp="1581883925319">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1384" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1581801598151" />
-    <state width="1384" height="209" key="GridCell.Tab.0.left" timestamp="1581801598151">
+    <state width="1384" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1581883925319" />
+    <state width="1384" height="209" key="GridCell.Tab.0.center" timestamp="1581883925319">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1384" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1581801598151" />
-    <state width="1384" height="209" key="GridCell.Tab.0.right" timestamp="1581801598151">
+    <state width="1384" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1581883925319" />
+    <state width="1384" height="209" key="GridCell.Tab.0.left" timestamp="1581883925318">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1384" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1581801598151" />
-    <state x="222" y="23" width="1024" height="813" key="SettingsEditor" timestamp="1581798424361">
+    <state width="1384" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1581883925318" />
+    <state width="1384" height="209" key="GridCell.Tab.0.right" timestamp="1581883925319">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="222" y="23" width="1024" height="813" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1581798424361" />
+    <state width="1384" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1581883925319" />
+    <state x="222" y="23" width="1024" height="813" key="SettingsEditor" timestamp="1581882075352">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="222" y="23" width="1024" height="813" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1581882075352" />
     <state x="187" y="130" key="new project wizard" timestamp="1581734005412">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
