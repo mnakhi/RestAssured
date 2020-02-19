@@ -56,6 +56,6 @@ public class TestPhotosAPI extends TypicodeAPIClient {
         jsonObject.put("url",url);
         jsonObject.put("thumbnailUrl",thumbnailUrl);
         ValidatableResponse response = photosAPIClient.deletePhotos(jsonObject);
-        //response.statusCode(HttpStatus.SC_OK);
+        response.statusCode(HttpStatus.SC_OK);
     }
 }

@@ -25,7 +25,7 @@ public class PhotosAPIClient extends TypicodeAPIClient {
         return given().header("Content-Type","application/json")
                 .body(json)
                 .when()
-                .post(baseUri+DELETE_PHOTOS_ENDPOINT)
+                .delete(baseUri+DELETE_PHOTOS_ENDPOINT)
                 .then();
     }
 
