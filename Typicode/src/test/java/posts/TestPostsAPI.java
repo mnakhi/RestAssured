@@ -52,4 +52,27 @@ public class TestPostsAPI {
         Assert.assertEquals(actualTitle, title);
         Assert.assertEquals(actualBody, body);
     }
+    @Test
+    public void testUserCanCreateACommentSuccessfully() {
+        int postId = 11;
+        String name = "id labore ex et quam laborum";
+        String email = "fakeid@yahoo.com";
+        String body="laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium";
+        JSONObject json = new JSONObject();
+        json.put("postId", postId);
+        json.put("id", 11);
+        json.put("name", name);
+        json.put("email", email);
+        json.put("body", body);
+        ValidatableResponse response = this.postsAPIClient.createPost(json);
+        response.statusCode(HttpStatus.SC_CREATED);
+        int actualPostId = response.extract().body().path("postId");
+        String actualName = response.extract().body().path("name");
+        String actualEmail = response.extract().body().path("email");
+        String actualBody = response.extract().body().path("body");
+        Assert.assertEquals(actualPostId, postId);
+        Assert.assertEquals(actualName, name);
+        Assert.assertEquals(actualEmail, email);
+        Assert.assertEquals(actualBody, body);
+    }
 }
